@@ -11,4 +11,6 @@ jobs:
 
     steps:
       - name: Print a welcome message
-        run: echo "Welcome to our first GitHub Actions Workflow!"
+        shell: powershell
+        run: Write-Output "Welcome to our first GitHub Actions Workflow!"
+
